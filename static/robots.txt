@@ -1,0 +1,5 @@
+User-agent:*
+
+Disallow:/
+
+就我这破站还爬！
