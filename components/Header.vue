@@ -17,7 +17,7 @@
                             <a href="/aboutus">关于我们</a>
                         </li>
                         <li class="nav-item">
-                            <a href="https://www.github.com">
+                            <a href="https://github.com/UsernameFull/test">
                                 <svg class="icon" aria-hidden="true">
                                     <use xlink:href="#icon-github"></use>
                                 </svg>
