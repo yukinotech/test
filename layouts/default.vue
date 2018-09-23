@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="turepage">
         <my-header/>
         <nuxt/>
         <my-footer/>
@@ -12,12 +12,18 @@
     export default {
         components: {
             MyFooter,
-            MyHeader
+            MyHeader,
+        },
+        data:{
+
         }
     }
 </script>
 
 <style>
+    .turepage{
+        height: 100%;
+    }
     .button,
     .button:visited {
         display: inline-block;
@@ -62,5 +68,9 @@
         width: 100%;
         padding-bottom: 6em;
         text-align: center;
+    }
+    /* 觉得element-ui的分页字体太小了，改了改 */
+    .el-pager li {
+    font-size: 14.5px;
     }
 </style>
