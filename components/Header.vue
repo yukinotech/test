@@ -23,15 +23,13 @@
                                 </svg>
                             </a>
                         </li>
-                        <li class="nav-item">
+                        <!-- <li class="nav-item">
                             <a href="/donate">捐赠</a>
-                        </li>
+                        </li> -->
                     </ul>
                 </div>
                   </el-col>
                 </el-row>
-                
-                
             </el-col>
         </el-row>
     </header>
@@ -40,7 +38,6 @@
 <style scoped>
     header {
         /* padding: 10px; */
-        height: 80px;
         background-color: #fff;
         color: #409EFF;
         top: 0;
@@ -49,8 +46,8 @@
         line-height: 80px;
         z-index: 100;
         position: relative;
-        /* 隔壁前端工程师非要加一条分界线，当然我是不会加的。。 */
-        /* border-bottom: 1px solid #ddd; */
+        /* 隔壁前端工程师非要加一条分界线，当然我是不会加的。。这TM丑了 */
+        border-bottom: 1px solid #ddd;
     }
 
     .logo-img {
