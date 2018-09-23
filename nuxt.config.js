@@ -27,6 +27,9 @@ module.exports = {
             },
             //决定用wowjs,所以就注释这个了(->_->)
             // {src:'https://cdn.bootcss.com/scrollReveal.js/3.4.0/scrollreveal.js'}
+            { /**/
+                src: 'https://cdn.bootcss.com/particles.js/2.0.0/particles.min.js'
+            },
         ]
     },
     /*
@@ -37,6 +40,7 @@ module.exports = {
     }, {
         src: '~/assets/css/font-awesome-4.7.0/css/font-awesome.css'
     }],
+    //element-ui里还含有v-charts
     plugins: [{
         src: '@/plugins/element-ui',
         ssr: true
@@ -68,7 +72,7 @@ module.exports = {
         //   }
         // }
     },
-    // /*中间件*/
+    /*中间件*/
     // router: {
     //     middleware: 'stats',
     // },

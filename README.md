@@ -1,22 +1,18 @@
 # nuxt_ele
 
-> 一个的Nuxt.js项目
+> Nuxt.js project
 
-## Build Setup/如何使用
+## Build Setup
 
 ``` bash
-# install dependencies/安装依赖
+# install dependencies
 $ npm install # Or yarn install
 
-#对于国内用户，还是用cnpm吧。。。
-$cnpm i
-
-# serve with hot reload at localhost:3000/开发模式下运行
+# serve with hot reload at localhost:3000
 $ npm run dev
 
-# build for production and launch server/生产模式下运行
+# build for production and launch server
 $ npm start
 ```
 
-
-
+For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
