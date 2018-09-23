@@ -25,6 +25,7 @@
     }) {
       return axios.get('/api/users/' + params.id)
         .then((res) => {
+            console.log(res);
           return {
             user: res.data
           }

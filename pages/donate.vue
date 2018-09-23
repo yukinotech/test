@@ -3,22 +3,33 @@
         <el-row>
             <el-col :span="5" :xs="{span:24}">
                 <h1>捐赠</h1>
+                <button v-on:click="trans">trans</button>
             </el-col>
             <el-col :span="16" :xs="{span:24}">
                 <div class="card">
                     <el-row>
                         <el-col :span="12" :xs="{span:24}">
-                            <div class="zfb">
-                                <svg class="icon" aria-hidden="true">
-                                    <use xlink:href="#icon-zhifubao"></use>
-                                </svg>
+                            <div id="zfb">
+                                <div class="logo">
+                                    <svg class="icon" aria-hidden="true">
+                                        <use xlink:href="#icon-zhifubao"></use>
+                                    </svg>
+                                </div>
+                                <div class="QR" v-show="iszfb1">
+                                    <img src="" alt="支付宝账号:2549564265@qq.com">
+                                </div>
                             </div>
                         </el-col>
                         <el-col :span="12" :xs="{span:24}">
-                            <div class="wx">
-                                <svg class="icon" aria-hidden="true">
-                                    <use xlink:href="#icon-weixinzhifu"></use>
-                                </svg>
+                            <div id="wx">
+                                <div class="logo">
+                                    <svg class="icon" aria-hidden="true">
+                                        <use xlink:href="#icon-weixinzhifu"></use>
+                                    </svg>
+                                </div>
+                                <div class="QR" v-show="iswx1">
+                                    <img src="" alt="微信号:">
+                                </div>
                             </div>
                         </el-col>
                     </el-row>
@@ -29,7 +40,7 @@
 </template>
 <script>
     export default {
-        name:"donate"
+        name: "donate"
     }
 </script>
 <style scoped>
@@ -50,18 +61,22 @@
         transition: box-shadow .25s;
         box-shadow: 0 2px 5px #cac6c6
     }
-    .zfb{
+
+    #zfb {
         text-align: center;
     }
-    .wx{
+
+    #wx {
         text-align: center;
     }
-    .icon{
+
+    .icon {
         height: 100%;
         width: auto;
     }
+
     @media screen {
-        .card{
+        .card {
             width: 80%;
             margin: 0 10% 0 10%;
             padding: 0 0 0 0;

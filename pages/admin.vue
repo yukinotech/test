@@ -79,7 +79,6 @@
         overflow: hidden;
         color: #303133;
         transition: box-shadow .25s;
-        transition: box-shadow .25s;
         box-shadow: 0 8px 17px #cac6c6
     }
 
